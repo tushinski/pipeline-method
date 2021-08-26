@@ -1,0 +1,28 @@
+{
+  "name": "pipeline-method",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "babel script/pipeline-method.js -o script/pipeline-method.min.js"
+  },
+  "keywords": [
+    "pipeline",
+    "chaining",
+    "method chaining",
+    "pipeline operator"
+  ],
+  "author": "Alex Tushinski <2shinski@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tushinski/pipeline-method.git"
+  },
+  "homepage": "https://github.com/tushinski/pipeline-method",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "babel-preset-minify": "^0.5.1"
+  },
+  "dependencies": {}
+}
