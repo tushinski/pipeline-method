@@ -36,19 +36,21 @@ using the **pipeline method** you can continue chaining with a pipeline:
 > The reason for this is that these types has no corresponding object wrappers.
 
 ## More examples
+##### Output element found in array
 ```javascript
-    /* Output element found in array */
     array
         .find(el => el.isToBeFound)
-        .pipe(console.log);
-
-    /* Get all links from document */
+        .pipe(console.log)
+```
+##### Get all links from document
+```javascript
     document
         .querySelectorAll('a')
         .pipe(Array.from)
-        .map(a => a.href);
-
-    /* Create a map from an array */
+        .map(a => a.href)
+```
+##### Create a map from an array
+```javascript
     array
         .map(el => [el.name, el.value])
         .pipe((pairs) => new Map(pairs))
