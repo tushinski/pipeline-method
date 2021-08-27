@@ -1,7 +1,7 @@
 # Pipeline Method
 Object-oriented alternative to the [pipeline operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Pipeline_operator).
 
-[![npm](https://img.shields.io/npm/dw/pipeline-method?color=red&label=npm%20downloads&style=flat)](https://www.npmjs.com/package/pipeline-method)
+[![npm](https://img.shields.io/npm/dt/pipeline-method?color=red&label=npm%20downloads&style=flat)](https://www.npmjs.com/package/pipeline-method)
 
 ## Setup
 Add the minified or original script to your project in any convenient way.
